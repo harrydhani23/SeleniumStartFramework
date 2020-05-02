@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]" parallel="tests">
+  <listeners>
+    <listener class-name="utils.ItestListener"/>
+  </listeners>
+  <test thread-count="2" name="TestOnChrome(failed)(failed)" parallel="tests">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="test.testCases.retryFailedDemo">
+        <methods>
+          <include name="testF2"/>
+          <include name="testF3"/>
+        </methods>
+      </class> <!-- test.testCases.retryFailedDemo -->
+    </classes>
+  </test> <!-- TestOnChrome(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

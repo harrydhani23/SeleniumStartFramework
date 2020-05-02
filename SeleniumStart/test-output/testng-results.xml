@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15384" started-at="2020-05-02T18:18:12 EDT" finished-at="2020-05-02T18:18:28 EDT">
+    <groups>
+      <group name="classOneTests">
+        <method signature="SearchPageTestCases.test1()[pri:0, instance:test.testCases.SearchPageTestCases@4e3958e7]" name="test1" class="test.testCases.SearchPageTestCases"/>
+      </group> <!-- classOneTests -->
+      <group name="regression">
+        <method signature="SearchPageTestCases.test1()[pri:0, instance:test.testCases.SearchPageTestCases@4e3958e7]" name="test1" class="test.testCases.SearchPageTestCases"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="SearchPageTestCases.test1()[pri:0, instance:test.testCases.SearchPageTestCases@4e3958e7]" name="test1" class="test.testCases.SearchPageTestCases"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="TestOnChrome" duration-ms="15384" started-at="2020-05-02T18:18:12 EDT" finished-at="2020-05-02T18:18:28 EDT">
+      <class name="test.testCases.SearchPageTestCases">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:test.testCases.SearchPageTestCases@4e3958e7]" name="setupBrowser" is-config="true" duration-ms="20" started-at="2020-05-02T18:18:12 EDT" finished-at="2020-05-02T18:18:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="SetupClassPreRequisite()[pri:0, instance:test.testCases.SearchPageTestCases@4e3958e7]" name="SetupClassPreRequisite" is-config="true" duration-ms="1" started-at="2020-05-02T18:18:12 EDT" finished-at="2020-05-02T18:18:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupClassPreRequisite -->
+        <test-method status="PASS" signature="createDriverInstance(java.lang.String)[pri:0, instance:test.testCases.SearchPageTestCases@4e3958e7]" name="createDriverInstance" is-config="true" duration-ms="6776" started-at="2020-05-02T18:18:12 EDT" finished-at="2020-05-02T18:18:19 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriverInstance -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:test.testCases.SearchPageTestCases@4e3958e7]" name="test1" duration-ms="6933" started-at="2020-05-02T18:18:19 EDT" finished-at="2020-05-02T18:18:26 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.testCases.SearchPageTestCases@4e3958e7]" name="closeBrowser" is-config="true" duration-ms="1602" started-at="2020-05-02T18:18:26 EDT" finished-at="2020-05-02T18:18:28 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.testCases.SearchPageTestCases -->
+    </test> <!-- TestOnChrome -->
+  </suite> <!-- Suite -->
+</testng-results>

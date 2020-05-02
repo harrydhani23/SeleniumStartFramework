@@ -1,0 +1,215 @@
+2020-05-01 17:46:31,594 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-01 17:46:31,597 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-01 17:46:35,835 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 17:46:35,835 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-01 17:46:38,586 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-01 17:46:40,779 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 17:46:40,779 ERROR u.ItestListener [TestNG-tests-1] failureReason --> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnKK']"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F72VL5U5', ip: '10.6.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\sharm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 914b18c0cd4dc6262a392883cceb6aef
+*** Element info: {Using=name, value=btnKK}
+2020-05-01 17:47:21,744 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-01 17:47:21,746 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-01 17:47:25,898 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 17:47:25,898 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-01 17:47:29,149 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-01 17:47:51,742 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 17:47:51,742 ERROR u.ItestListener [TestNG-tests-1] failureReason --> org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.name: btnKK (tried for 20 second(s) with 500 milliseconds interval)
+2020-05-01 17:48:03,498 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-01 17:48:03,500 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-01 17:48:07,723 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 17:48:07,724 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-01 17:48:10,512 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-01 17:48:12,591 ERROR t.t.SearchPageTestCases [TestNG-tests-1] Clicked Search
+2020-05-01 17:48:12,594 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 18:00:53,167 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-01 18:00:53,170 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-01 18:00:57,362 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 18:00:57,362 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-01 18:01:00,243 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-01 18:01:02,090 ERROR t.t.SearchPageTestCases [TestNG-tests-1] Clicked Search
+2020-05-01 18:01:02,092 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 18:01:09,611 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-01 18:01:09,614 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-01 18:01:13,834 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 18:01:13,834 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-01 18:01:16,713 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-01 18:01:18,889 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 18:01:18,889 ERROR u.ItestListener [TestNG-tests-1] failureReason --> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnKK']"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F72VL5U5', ip: '10.6.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\sharm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54287}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 411c59c0ebc190dc7358aff7298f31a4
+*** Element info: {Using=name, value=btnKK}
+2020-05-01 18:04:58,814 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-01 18:04:58,816 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-01 18:05:03,042 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 18:05:03,042 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-01 18:05:05,870 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-01 18:05:08,099 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 18:05:08,100 ERROR u.ItestListener [TestNG-tests-1] failureReason --> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnKK']"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F72VL5U5', ip: '10.6.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\sharm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54409}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4ebaad1fed1dac404bfcabdf0f080b26
+*** Element info: {Using=name, value=btnKK}
+2020-05-01 18:06:53,371 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-01 18:06:53,374 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-01 18:06:57,599 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 18:06:57,599 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-01 18:07:00,478 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-01 18:07:12,852 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 18:07:12,853 ERROR u.ItestListener [TestNG-tests-1] failureReason --> org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.name: btnKK (tried for 10 second(s) with 500 milliseconds interval)
+2020-05-01 18:34:57,751 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-01 18:34:57,754 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-01 18:35:01,985 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 18:35:01,985 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-01 18:35:18,769 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-01 18:35:18,772 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-01 18:35:22,989 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 18:35:22,989 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-01 18:35:25,760 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-01 18:35:27,953 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 18:35:27,953 ERROR u.ItestListener [TestNG-tests-1] failureReason --> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnKK']"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F72VL5U5', ip: '10.6.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\sharm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53319}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: dcdb8ac990b7c5a512c2bea659d6ef81
+*** Element info: {Using=name, value=btnKK}
+2020-05-01 18:37:43,478 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-01 18:37:43,481 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-01 18:37:47,719 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 18:37:47,720 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-01 18:37:51,019 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-01 18:38:18,997 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 18:38:18,997 ERROR u.ItestListener [TestNG-tests-1] failureReason --> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnKK']"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F72VL5U5', ip: '10.6.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\sharm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a057b8fba36642f2fdec294d6004fccf
+*** Element info: {Using=name, value=btnKK}
+2020-05-01 18:46:07,711 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-01 18:46:07,714 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-01 18:46:11,956 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 18:46:11,956 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-01 18:46:14,785 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-01 18:47:16,168 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 18:47:16,168 ERROR u.ItestListener [TestNG-tests-1] failureReason --> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnKK']"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F72VL5U5', ip: '10.6.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\sharm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51663}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a56727de6c289b232d11c9c116bb4f43
+*** Element info: {Using=name, value=btnKK}
+2020-05-01 18:47:47,854 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-01 18:47:47,856 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-01 18:47:52,062 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 18:47:52,062 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-01 18:47:54,805 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-01 18:47:56,948 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-01 18:47:56,948 ERROR u.ItestListener [TestNG-tests-1] failureReason --> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnKK']"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F72VL5U5', ip: '10.6.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\sharm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8777f06515042f461d3e25a942fd103d
+*** Element info: {Using=name, value=btnKK}
+2020-05-02 17:32:18,740 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-02 17:32:18,747 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-02 17:32:26,697 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-02 17:32:26,698 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-02 17:32:30,452 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-02 17:32:32,872 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-02 17:32:32,873 ERROR u.ItestListener [TestNG-tests-1] failureReason --> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnKK']"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F72VL5U5', ip: '10.6.2.195', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\sharm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 939467b73d80c1e635d2dfdbe286559c
+*** Element info: {Using=name, value=btnKK}
+2020-05-02 17:32:55,661 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-02 17:32:55,668 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-02 17:33:02,706 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-02 17:33:02,707 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-02 17:33:06,351 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-02 17:33:08,991 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-02 17:33:08,991 ERROR u.ItestListener [TestNG-tests-1] failureReason --> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnKK']"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F72VL5U5', ip: '10.6.2.195', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\sharm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1c58f87fe0e54272be372fee28e7c22d
+*** Element info: {Using=name, value=btnKK}
+2020-05-02 17:33:57,509 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-02 17:33:57,517 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-02 17:34:04,535 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-02 17:34:04,536 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-02 17:34:08,273 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-02 17:34:11,266 ERROR t.t.SearchPageTestCases [TestNG-tests-1] Clicked Search
+2020-05-02 17:34:11,274 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-02 17:34:59,469 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-02 17:34:59,477 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-02 17:35:06,695 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-02 17:35:06,696 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-02 17:35:10,539 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-02 17:35:13,693 ERROR t.t.SearchPageTestCases [TestNG-tests-1] Clicked Search
+2020-05-02 17:35:13,701 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-02 17:35:35,719 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-02 17:35:35,726 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-02 17:35:42,565 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-02 17:35:42,565 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-02 17:35:46,949 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-02 17:35:48,511 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-02 17:35:48,511 ERROR u.ItestListener [TestNG-tests-1] failureReason --> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="gNO89b" value="Google Search" aria-label="Google Search" name="btnK" type="submit" data-ved="0ahUKEwjPlYikkZbpAhVYZM0KHQb5AaMQ4dUDCAk"> is not clickable at point (412, 565). Other element would receive the click: <div class="fbar">...</div>
+  (Session info: headless chrome=81.0.4044.122)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F72VL5U5', ip: '10.6.2.195', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\sharm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60727}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d70682f7572c8643675500e12e9b1207
+2020-05-02 17:36:27,413 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-02 17:36:27,420 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-02 17:36:34,522 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-02 17:36:34,523 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-02 17:36:38,066 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-02 17:36:40,383 ERROR t.t.SearchPageTestCases [TestNG-tests-1] Clicked Search
+2020-05-02 17:36:40,389 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-02 17:38:18,327 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-02 17:38:18,335 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-02 17:38:25,517 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-02 17:38:25,520 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-02 17:38:29,107 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-02 17:38:32,275 ERROR t.t.SearchPageTestCases [TestNG-tests-1] Clicked Search
+2020-05-02 17:38:32,281 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-02 18:18:12,869 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-02 18:18:12,879 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-02 18:18:19,640 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-02 18:18:19,641 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-02 18:18:23,494 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-02 18:18:26,562 ERROR t.t.SearchPageTestCases [TestNG-tests-1] Clicked Search
+2020-05-02 18:18:26,569 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
