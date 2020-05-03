@@ -213,3 +213,31 @@ Session ID: d70682f7572c8643675500e12e9b1207
 2020-05-02 18:18:23,494 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
 2020-05-02 18:18:26,562 ERROR t.t.SearchPageTestCases [TestNG-tests-1] Clicked Search
 2020-05-02 18:18:26,569 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-03 00:51:10,926 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-03 00:51:10,933 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-03 00:51:17,328 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-03 00:51:17,329 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-03 00:51:20,681 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-03 00:51:23,176 ERROR t.t.SearchPageTestCases [TestNG-tests-1] Clicked Search
+2020-05-03 00:51:23,183 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-03 00:52:01,536 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-03 00:52:01,544 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-03 00:52:07,726 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-03 00:52:07,726 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-03 00:52:11,119 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-03 00:52:13,497 ERROR t.t.SearchPageTestCases [TestNG-tests-1] Clicked Search
+2020-05-03 00:52:13,505 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-03 01:21:05,961 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-03 01:21:05,969 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-03 01:21:12,486 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-03 01:21:12,486 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-03 01:21:15,952 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-03 01:21:18,852 ERROR t.t.SearchPageTestCases [TestNG-tests-1] Clicked Search
+2020-05-03 01:21:18,859 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-03 01:22:00,300 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-03 01:22:00,307 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-03 01:22:06,730 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-03 01:22:06,731 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-03 01:22:10,224 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-03 01:22:12,687 ERROR t.t.SearchPageTestCases [TestNG-tests-1] Clicked Search
+2020-05-03 01:22:12,692 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1

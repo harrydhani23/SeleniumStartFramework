@@ -21,7 +21,7 @@ public class BasePageObject {
 		return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
 	}
 
-	public WebElement fluentWait(WebDriver driver, By locator, int timeOutnSeconds, int pollingFrequency) {
+	public WebElement fluentWait(WebDriver driver, final By locator, int timeOutnSeconds, int pollingFrequency) {
 		@SuppressWarnings("deprecation")
 		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver).withTimeout(timeOutnSeconds, TimeUnit.SECONDS)
 				.pollingEvery(pollingFrequency, TimeUnit.SECONDS).ignoring(NoSuchElementException.class);

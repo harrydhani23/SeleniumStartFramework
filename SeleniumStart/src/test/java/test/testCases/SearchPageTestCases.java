@@ -4,10 +4,10 @@ import org.testng.annotations.Test;
 
 import pages.SearchPageObject;
 
-@Test(groups="classOneTests")
+@Test(groups = "classOneTests")
 public class SearchPageTestCases extends BaseTest {
 
-	@Test(groups = {"sanity", "regression"})
+	@Test(groups = { "sanity", "regression" })
 	public void test1() {
 		String URL = "http://www.google.com";
 		String SearchText = "CoronaVirus";

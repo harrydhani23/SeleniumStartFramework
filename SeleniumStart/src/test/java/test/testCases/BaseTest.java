@@ -11,7 +11,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterMethod;
@@ -40,22 +39,24 @@ public class BaseTest {
 		logger = LogManager.getLogger(this);
 	}
 
-	@Parameters("browserName") //To take parameter from testNG.xml
+	@Parameters("browserName") // To take parameter from testNG.xml
 	@BeforeMethod
 	public void createDriverInstance(String browserName) {
+		
 		logger.info("Thread is -->" + Thread.currentThread());
-	//	switch (browser) { //To take browser parameter from property file
-		switch (browserName) { //To take browser parameter from testNG.xml
+		// switch (browser) { //To take browser parameter from property file
+		switch (browserName) { // To take browser parameter from testNG.xml
 		case "firefox":
 			logger.info("Initializing firefox browser");
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
-			driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS); //Implicit wait
+			driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS); // Implicit wait
 			break;
 		case "chrome":
 			logger.info("Initializing chrome browser");
 			WebDriverManager.chromedriver().setup();
-			/*Below mentioned commented code is for headless chrome browser
+			/*
+			 * Below mentioned commented code is for headless chrome browser
 			 * 
 			 */
 //			ChromeOptions options = new ChromeOptions();
@@ -66,7 +67,8 @@ public class BaseTest {
 			break;
 		case "ie":
 			logger.info("Initializing ie browser");
-			WebDriverManager.iedriver().setup();;
+			WebDriverManager.iedriver().setup();
+			;
 			driver = new InternetExplorerDriver();
 			driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 			break;
