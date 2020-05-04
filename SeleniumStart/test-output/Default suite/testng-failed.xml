@@ -3,15 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.testCases.SearchPageTestCases">
+      <class name="test.testCases.retryFailedDemo">
         <methods>
           <include name="SetupClassPreRequisite"/>
           <include name="setupBrowser"/>
-          <include name="test1"/>
           <include name="closeBrowser"/>
+          <include name="testF2"/>
+          <include name="testF1"/>
           <include name="createDriverInstance"/>
+          <include name="testF3"/>
         </methods>
-      </class> <!-- test.testCases.SearchPageTestCases -->
+      </class> <!-- test.testCases.retryFailedDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

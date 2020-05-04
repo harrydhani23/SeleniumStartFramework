@@ -9,7 +9,7 @@
 		<classes>
 			<class name="test.testCases.SearchPageTestCases" />
 <!-- 			<class name="test.testCases.SearchPageTestCasesOne"/> -->
-<!-- 			<class name="test.testCases.retryFailedDemo"/> -->
+<!--  			<class name="test.testCases.retryFailedDemo"/> -->
 		</classes>
 	</test>
 

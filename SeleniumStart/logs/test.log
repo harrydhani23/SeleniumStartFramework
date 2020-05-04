@@ -241,3 +241,40 @@ Session ID: d70682f7572c8643675500e12e9b1207
 2020-05-03 01:22:10,224 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
 2020-05-03 01:22:12,687 ERROR t.t.SearchPageTestCases [TestNG-tests-1] Clicked Search
 2020-05-03 01:22:12,692 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-03 01:25:15,411 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-03 01:25:15,419 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-03 01:25:21,897 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-03 01:25:21,898 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-03 01:25:25,466 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-03 01:25:28,211 ERROR t.t.SearchPageTestCases [TestNG-tests-1] Clicked Search
+2020-05-03 01:25:28,220 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.SearchPageTestCases].test1
+2020-05-03 01:25:29,043 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-03 01:25:29,043 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-03 01:25:33,416 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-03 01:25:33,425 ERROR u.ItestListener [TestNG-tests-1] I came here onTestSkipped of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-03 01:25:33,426 ERROR u.ItestListener [TestNG-tests-1] skipReason --> java.lang.AssertionError: expected [false] but found [true]
+2020-05-03 01:25:34,233 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-03 01:25:34,233 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-03 01:25:38,623 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-03 01:25:38,630 ERROR u.ItestListener [TestNG-tests-1] I came here onTestSkipped of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-03 01:25:38,631 ERROR u.ItestListener [TestNG-tests-1] skipReason --> java.lang.AssertionError: expected [false] but found [true]
+2020-05-03 01:25:39,475 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-03 01:25:39,476 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-03 01:25:44,133 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-03 01:25:44,137 ERROR u.ItestListener [TestNG-tests-1] I came here onTestSkipped of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-03 01:25:44,137 ERROR u.ItestListener [TestNG-tests-1] skipReason --> java.lang.AssertionError: expected [false] but found [true]
+2020-05-03 01:25:47,111 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-03 01:25:47,111 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-03 01:25:58,264 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-03 01:25:58,269 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-03 01:25:58,269 ERROR u.ItestListener [TestNG-tests-1] failureReason --> java.lang.AssertionError: expected [false] but found [true]
+2020-05-03 01:26:24,818 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-03 01:26:24,818 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-03 01:26:30,080 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-03 01:26:30,084 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-03 01:26:30,085 ERROR u.ItestListener [TestNG-tests-1] failureReason --> java.lang.ArithmeticException: / by zero
+2020-05-03 01:26:31,096 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-03 01:26:31,096 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-03 01:26:35,704 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF3
+2020-05-03 01:26:35,707 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.retryFailedDemo].testF3
+2020-05-03 01:26:35,708 ERROR u.ItestListener [TestNG-tests-1] failureReason --> java.lang.AssertionError: expected [false] but found [true]

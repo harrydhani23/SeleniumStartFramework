@@ -7,15 +7,17 @@
   <test thread-count="2" name="TestOnChrome(failed)" parallel="tests">
     <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="test.testCases.SearchPageTestCases">
+      <class name="test.testCases.retryFailedDemo">
         <methods>
           <include name="SetupClassPreRequisite"/>
           <include name="setupBrowser"/>
-          <include name="test1"/>
           <include name="closeBrowser"/>
+          <include name="testF2"/>
+          <include name="testF1"/>
           <include name="createDriverInstance"/>
+          <include name="testF3"/>
         </methods>
-      </class> <!-- test.testCases.SearchPageTestCases -->
+      </class> <!-- test.testCases.retryFailedDemo -->
     </classes>
   </test> <!-- TestOnChrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->
