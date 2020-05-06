@@ -13,9 +13,7 @@
           <include name="setupBrowser"/>
           <include name="closeBrowser"/>
           <include name="testF2"/>
-          <include name="testF1"/>
           <include name="createDriverInstance"/>
-          <include name="testF3"/>
         </methods>
       </class> <!-- test.testCases.retryFailedDemo -->
     </classes>

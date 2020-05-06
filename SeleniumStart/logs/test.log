@@ -278,3 +278,257 @@ Session ID: d70682f7572c8643675500e12e9b1207
 2020-05-03 01:26:35,704 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF3
 2020-05-03 01:26:35,707 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.retryFailedDemo].testF3
 2020-05-03 01:26:35,708 ERROR u.ItestListener [TestNG-tests-1] failureReason --> java.lang.AssertionError: expected [false] but found [true]
+2020-05-04 20:30:43,932 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 20:30:43,941 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:16:01,832 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:16:01,840 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:16:08,337 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-04 21:16:08,344 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-04 21:16:09,225 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:16:09,225 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:16:13,629 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-04 21:16:13,636 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-04 21:16:13,637 ERROR u.ItestListener [TestNG-tests-1] failureReason --> java.lang.ArithmeticException: / by zero
+2020-05-04 21:16:13,645 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-04 21:16:13,646 ERROR u.ItestListener [TestNG-tests-1] failureReason --> java.lang.NullPointerException
+2020-05-04 21:17:26,975 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:17:26,983 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:17:33,470 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-04 21:17:33,478 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-04 21:17:34,337 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:17:34,338 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:17:38,735 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-04 21:17:38,741 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-04 21:17:38,742 ERROR u.ItestListener [TestNG-tests-1] failureReason --> java.lang.ArithmeticException: / by zero
+2020-05-04 21:17:38,752 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-04 21:17:38,753 ERROR u.ItestListener [TestNG-tests-1] failureReason --> java.lang.NullPointerException
+2020-05-04 21:18:28,761 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:18:28,769 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:18:35,386 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-04 21:18:35,396 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-04 21:18:36,295 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:18:36,295 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:18:40,678 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-04 21:18:40,685 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-04 21:18:40,686 ERROR u.ItestListener [TestNG-tests-1] failureReason --> java.lang.ArithmeticException: / by zero
+2020-05-04 21:18:40,694 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-04 21:18:40,695 ERROR u.ItestListener [TestNG-tests-1] failureReason --> java.lang.NullPointerException
+2020-05-04 21:21:35,812 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:21:35,820 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:21:42,476 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-04 21:21:42,485 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-04 21:21:43,406 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:21:43,406 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:21:47,899 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-04 21:21:47,906 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-04 21:21:47,907 ERROR u.ItestListener [TestNG-tests-1] failureReason --> java.lang.ArithmeticException: / by zero
+2020-05-04 21:21:49,161 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:21:49,161 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:21:53,650 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF3
+2020-05-04 21:21:53,653 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.retryFailedDemo].testF3
+2020-05-04 21:22:41,229 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:22:41,237 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:22:47,793 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-04 21:22:47,801 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-04 21:22:48,691 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:22:48,691 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:22:53,129 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-04 21:22:53,136 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-04 21:22:53,137 ERROR u.ItestListener [TestNG-tests-1] failureReason --> java.lang.ArithmeticException: / by zero
+2020-05-04 21:22:54,400 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:22:54,400 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:22:58,866 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF3
+2020-05-04 21:22:58,868 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.retryFailedDemo].testF3
+2020-05-04 21:45:44,225 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:45:44,232 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:45:51,170 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-04 21:45:51,180 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-04 21:45:52,565 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:45:52,565 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:45:57,192 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-04 21:45:57,203 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-04 21:45:57,204 ERROR u.ItestListener [TestNG-tests-1] failureReason --> java.lang.ArithmeticException: / by zero
+2020-05-04 21:45:58,534 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:45:58,534 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:46:03,025 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF3
+2020-05-04 21:46:03,028 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.retryFailedDemo].testF3
+2020-05-04 21:48:05,390 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:48:05,398 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:48:12,504 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-04 21:48:12,514 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-04 21:48:13,412 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:48:13,412 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:48:18,083 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-04 21:48:18,126 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-04 21:48:18,127 ERROR u.ItestListener [TestNG-tests-1] failureReason --> org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=81.0.4044.129)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F72VL5U5', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\sharm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64939}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ba179316b25654c6339e756ec67c9a54
+2020-05-04 21:48:19,429 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:48:19,430 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:48:23,938 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF3
+2020-05-04 21:48:23,942 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.retryFailedDemo].testF3
+2020-05-04 21:48:44,456 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:48:44,464 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:48:51,315 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-04 21:48:51,325 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-04 21:48:52,267 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:48:52,268 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:48:56,881 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-04 21:48:56,935 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-04 21:48:56,936 ERROR u.ItestListener [TestNG-tests-1] failureReason --> org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=81.0.4044.129)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F72VL5U5', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\sharm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49577}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1458bafb92e5bc9289d6b2f29dd8cbc9
+2020-05-04 21:48:58,469 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:48:58,469 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:49:03,268 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF3
+2020-05-04 21:49:03,271 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.retryFailedDemo].testF3
+2020-05-04 21:50:16,236 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:50:16,243 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:50:23,019 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-04 21:50:23,027 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-04 21:50:23,960 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:50:23,960 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:50:28,505 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-04 21:50:28,506 INFO t.t.retryFailedDemo [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-04 21:50:33,088 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-04 21:50:33,088 ERROR u.ItestListener [TestNG-tests-1] failureReason --> java.lang.ArithmeticException: / by zero
+2020-05-04 21:50:34,516 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-04 21:50:34,517 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-04 21:50:39,363 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF3
+2020-05-04 21:50:39,365 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.retryFailedDemo].testF3
+2020-05-05 00:00:05,632 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.GroupTest1].test1
+2020-05-05 00:00:05,642 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.GroupTest1].test1
+2020-05-05 00:00:05,644 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.GroupTest1].test2
+2020-05-05 00:00:05,644 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.GroupTest1].test2
+2020-05-05 00:00:36,428 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.GroupTest1].test1
+2020-05-05 00:00:36,440 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.GroupTest1].test1
+2020-05-05 00:00:36,443 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.GroupTest1].test2
+2020-05-05 00:00:36,445 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.GroupTest1].test2
+2020-05-05 00:00:36,447 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.GroupTest1].test3
+2020-05-05 00:00:36,448 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.GroupTest1].test3
+2020-05-05 00:01:13,302 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.GroupTest1].test1
+2020-05-05 00:01:13,313 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.GroupTest1].test1
+2020-05-05 00:01:13,314 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.GroupTest1].test2
+2020-05-05 00:01:13,315 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.GroupTest1].test2
+2020-05-05 00:01:13,316 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.GroupTest1].test3
+2020-05-05 00:01:13,317 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.GroupTest1].test3
+2020-05-05 00:01:28,728 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.GroupTest1].test3
+2020-05-05 00:01:28,738 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.GroupTest1].test3
+2020-05-05 00:01:28,740 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.GroupTest1].test4
+2020-05-05 00:01:28,740 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.GroupTest1].test4
+2020-05-05 00:01:55,511 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.GroupTest1].test3
+2020-05-05 00:01:55,520 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.GroupTest1].test3
+2020-05-05 00:02:44,485 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.GroupTest1].test1
+2020-05-05 00:02:44,495 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.GroupTest1].test1
+2020-05-05 00:02:44,496 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.GroupTest1].test2
+2020-05-05 00:02:44,497 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.GroupTest1].test2
+2020-05-05 00:02:44,498 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.GroupTest1].test3
+2020-05-05 00:02:44,499 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.GroupTest1].test3
+2020-05-05 00:02:44,500 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.GroupTest1].test4
+2020-05-05 00:02:44,501 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.GroupTest1].test4
+2020-05-05 00:03:37,948 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.GroupTest1].test3
+2020-05-05 00:03:37,959 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.GroupTest1].test3
+2020-05-05 00:03:37,960 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.GroupTest1].test4
+2020-05-05 00:03:37,961 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.GroupTest1].test4
+2020-05-05 00:04:25,318 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.GroupTest1].test3
+2020-05-05 00:04:25,328 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.GroupTest1].test3
+2020-05-05 00:06:29,716 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-05 00:06:29,718 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-05 00:06:34,193 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test
+2020-05-05 00:06:34,193 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-05 00:06:37,270 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-05 00:06:38,801 ERROR t.t.SearchPageTestCases [TestNG-tests-1] Clicked Search
+2020-05-05 00:06:38,803 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.SearchPageTestCases].test
+2020-05-05 00:06:39,447 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-05 00:06:39,447 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-05 00:06:42,889 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCasesOne].test1
+2020-05-05 00:06:48,091 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.SearchPageTestCasesOne].test1
+2020-05-05 00:06:48,092 ERROR u.ItestListener [TestNG-tests-1] failureReason --> org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=81.0.4044.129)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F72VL5U5', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\sharm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55253}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9ad39d6d0bda28241735a635e25964c5
+2020-05-05 00:06:49,036 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-05 00:06:49,036 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-05 00:06:52,417 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCasesOne].test2
+2020-05-05 00:06:52,418 INFO t.t.SearchPageTestCasesOne [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-05 00:06:52,418 INFO t.t.SearchPageTestCasesOne [TestNG-tests-1] This is driver Instance --> ChromeDriver: chrome on WINDOWS (1fb471da3c4f9108b37817495ce199b3)
+2020-05-05 00:06:55,085 WARN t.t.SearchPageTestCasesOne [TestNG-tests-1] Entering Text in Goole Search --> Death Count in CoronaVirus in India
+2020-05-05 00:06:57,321 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.SearchPageTestCasesOne].test2
+2020-05-05 00:06:57,322 ERROR u.ItestListener [TestNG-tests-1] failureReason --> org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=81.0.4044.129)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F72VL5U5', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\sharm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55572}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1fb471da3c4f9108b37817495ce199b3
+2020-05-05 00:06:58,278 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-05 00:06:58,278 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-05 00:07:01,660 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-05 00:07:01,661 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-05 00:07:02,283 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-05 00:07:02,283 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-05 00:07:05,657 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-05 00:07:05,657 INFO t.t.retryFailedDemo [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-05 00:07:08,341 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-05 00:07:08,341 ERROR u.ItestListener [TestNG-tests-1] failureReason --> java.lang.ArithmeticException: / by zero
+2020-05-05 00:07:09,290 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-05 00:07:09,290 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-05 00:07:12,732 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF3
+2020-05-05 00:07:12,732 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.retryFailedDemo].testF3
+2020-05-05 00:08:17,739 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-05 00:08:17,742 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-05 00:08:21,855 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCases].test
+2020-05-05 00:08:21,855 INFO t.t.SearchPageTestCases [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-05 00:08:24,701 WARN t.t.SearchPageTestCases [TestNG-tests-1] Entering Text in Goole Search --> CoronaVirus
+2020-05-05 00:08:26,071 ERROR t.t.SearchPageTestCases [TestNG-tests-1] Clicked Search
+2020-05-05 00:08:26,073 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.SearchPageTestCases].test
+2020-05-05 00:08:27,102 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-05 00:08:27,102 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-05 00:08:30,502 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCasesOne].test1
+2020-05-05 00:08:35,432 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.SearchPageTestCasesOne].test1
+2020-05-05 00:08:35,432 ERROR u.ItestListener [TestNG-tests-1] failureReason --> org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=81.0.4044.129)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F72VL5U5', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\sharm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58601}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cf186f86a342a74f8c7d330e1206ae7c
+2020-05-05 00:08:36,404 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-05 00:08:36,404 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-05 00:08:39,785 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.SearchPageTestCasesOne].test2
+2020-05-05 00:08:39,785 INFO t.t.SearchPageTestCasesOne [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-05 00:08:39,785 INFO t.t.SearchPageTestCasesOne [TestNG-tests-1] This is driver Instance --> ChromeDriver: chrome on WINDOWS (8b4341339153b7ea814159c019b074ba)
+2020-05-05 00:08:42,498 WARN t.t.SearchPageTestCasesOne [TestNG-tests-1] Entering Text in Goole Search --> Death Count in CoronaVirus in India
+2020-05-05 00:08:44,737 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.SearchPageTestCasesOne].test2
+2020-05-05 00:08:44,737 ERROR u.ItestListener [TestNG-tests-1] failureReason --> org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=81.0.4044.129)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-F72VL5U5', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\sharm\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8b4341339153b7ea814159c019b074ba
+2020-05-05 00:08:45,919 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-05 00:08:45,919 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-05 00:08:49,296 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-05 00:08:49,296 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.retryFailedDemo].testF1
+2020-05-05 00:08:50,446 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-05 00:08:50,446 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-05 00:08:53,822 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-05 00:08:53,823 INFO t.t.retryFailedDemo [TestNG-tests-1] typing url --> http://www.google.com
+2020-05-05 00:08:56,537 ERROR u.ItestListener [TestNG-tests-1] I came here onTestFailure of test --> [TestClass name=class test.testCases.retryFailedDemo].testF2
+2020-05-05 00:08:56,537 ERROR u.ItestListener [TestNG-tests-1] failureReason --> java.lang.ArithmeticException: / by zero
+2020-05-05 00:08:57,937 INFO t.t.BaseTest [TestNG-tests-1] Thread is -->Thread[TestNG-tests-1,5,main]
+2020-05-05 00:08:57,937 INFO t.t.BaseTest [TestNG-tests-1] Initializing chrome browser
+2020-05-05 00:09:01,323 INFO u.ItestListener [TestNG-tests-1] I came here onTestStart of test --> [TestClass name=class test.testCases.retryFailedDemo].testF3
+2020-05-05 00:09:01,323 INFO u.ItestListener [TestNG-tests-1] I came here onTestSuccess of test --> [TestClass name=class test.testCases.retryFailedDemo].testF3

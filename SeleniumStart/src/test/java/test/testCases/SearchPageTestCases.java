@@ -8,7 +8,7 @@ import pages.SearchPageObject;
 public class SearchPageTestCases extends BaseTest {
 
 	@Test(groups = { "sanity", "regression" })
-	public void test1() {
+	public void test() {
 		String URL = "http://www.google.com";
 		String SearchText = "CoronaVirus";
 		logger.info("typing url --> " + URL);

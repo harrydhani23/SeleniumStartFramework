@@ -8,27 +8,25 @@
 		<parameter name="browserName" value="chrome"></parameter>
 		<classes>
 			<class name="test.testCases.SearchPageTestCases" />
-<!-- 			<class name="test.testCases.SearchPageTestCasesOne"/> -->
-<!--  			<class name="test.testCases.retryFailedDemo"/> -->
+			<class name="test.testCases.SearchPageTestCasesOne"/>
+ 			<class name="test.testCases.retryFailedDemo"/>
 		</classes>
 	</test>
 
 <!-- 	<test name="TestOnFireFox"> -->
 <!-- 		<parameter name="browserName" value="firefox"></parameter> -->
 <!-- 		<groups> -->
-<!-- 			<define name="regression1"> Define a new group in testNg xml by including already existing groups -->
+<!-- 			<define name="regression1"> -->
 <!-- 				<include name="regression"></include> -->
 <!-- 				<include name="smoke"></include> -->
 <!-- 			</define> -->
 <!-- 			<run> -->
-<!-- 				<exclude name="classOneTests"></exclude>  -->
-<!-- 				<exclude name="regression"></exclude> -->
-<!-- 				<include name="sanity"></include> -->
+<!-- 				<include name="regression1"></include> -->
+<!-- 				<exclude name="sanity"></exclude> -->
 <!-- 			</run> -->
 <!-- 		</groups> -->
 <!-- 		<classes> -->
-<!-- 			<class name="test.testCases.SearchPageTestCases" /> -->
-<!-- 			<class name="test.testCases.SearchPageTestCasesOne"/> -->
+<!-- 			<class name="test.testCases.GroupTest1" /> -->
 <!-- 		</classes> -->
-<!-- 	</test> Test -->
-</suite> <!-- Suite -->
+<!-- 	</test> -->
+</suite>

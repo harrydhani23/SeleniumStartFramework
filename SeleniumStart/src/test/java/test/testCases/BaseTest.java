@@ -1,5 +1,7 @@
 package test.testCases;
 
+import java.io.File;
+import org.apache.commons.io.FileUtils;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -9,6 +11,8 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -23,7 +27,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 
-	WebDriver driver = null;
+	static WebDriver driver = null;
 	Logger logger;
 	static String browser;
 
@@ -99,6 +103,17 @@ public class BaseTest {
 			e.printStackTrace();
 		}
 		return prop;
+	}
+	
+	public void takeScreenShot(String TestCaseName) {
+		
+        File screenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+try {
+	FileUtils.copyFile(screenshotFile, new File("screenShot/"+ TestCaseName +".png"));
+} catch (IOException e) {
+	logger.error("Unable to copy scrrenshot.png");
+	e.printStackTrace();
+}
 	}
 
 }
